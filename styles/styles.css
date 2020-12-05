@@ -36,8 +36,12 @@ h3,
 h4,
 h5,
 h6,
-p,
-ul {
+p {
+  margin: 0;
+}
+ul,
+ol {
+  padding: 0;
   margin: 0;
 }
 img {
@@ -85,10 +89,15 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 /*================ Общие конец ================  */
 
 /* ================ header ================ */
+
 header {
   background-color: var(--primary-bgc);
 }
@@ -129,6 +138,41 @@ footer .logo {
 
 .nav-list-element.current-page {
   color: var(--accent-color);
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+.header-nav .nav-list {
+  display: flex;
+  align-items: center;
+}
+header .nav-contacts {
+  display: flex;
+}
+header address {
+  margin-left: auto;
+}
+
+.nav-contacts .nav-contacts-element:not(:last-child) {
+  margin-right: 50px;
+}
+.nav-contacts .nav-contacts-element {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.nav-list-element-logo {
+  padding: 24px 0px 25px 0px;
+  margin-right: 93px;
+}
+.nav-list .nav-list-list {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.nav-list .nav-list-list:not(:last-child) {
+  margin-right: 50px;
 }
 /* ================ header END ================ */
 
