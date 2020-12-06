@@ -94,6 +94,11 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.section-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /*================ Общие конец ================  */
 
 /* ================ header ================ */
@@ -229,7 +234,20 @@ header address {
   overflow: hidden;
 }
 
+.features .features-list {
+  display: flex;
+}
+.features .features-list-element:not(:last-child) {
+  margin-right: 30px;
+}
+.features-list-element .section-list-title {
+  margin-bottom: 10px;
+}
 /* ================ Особенности конец  ================ */
+
+/* ================ Чем мы занимаемся  ================ */
+
+/* ================ Чем мы занимаемся конец  ========= */
 
 /* ================ Наша команда  ================ */
 .our-team {
