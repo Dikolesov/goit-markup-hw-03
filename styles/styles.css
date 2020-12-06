@@ -247,11 +247,25 @@ header address {
 
 /* ================ Чем мы занимаемся  ================ */
 
+.about-us {
+  padding-bottom: 94px;
+}
+.about-us .section-title {
+  margin-bottom: 50px;
+}
+.about-us-list {
+  display: flex;
+  justify-content: space-between;
+}
 /* ================ Чем мы занимаемся конец  ========= */
 
 /* ================ Наша команда  ================ */
 .our-team {
   background-color: #f5f4fa;
+  text-align: center;
+}
+.our-team .section-title {
+  margin-bottom: 50px;
 }
 .team-title {
   font-weight: 500;
@@ -264,8 +278,13 @@ header address {
   font-size: 16px;
   line-height: 1.19;
 }
-.team-cards {
+.team-cards-list-item {
   background-color: var(--primary-bgc);
+}
+
+.our-team .team-cards-list {
+  display: flex;
+  justify-content: space-between;
 }
 /* ================ Наша команда конец  ================ */
 
