@@ -240,6 +240,9 @@ header address {
 .features .features-list {
   display: flex;
 }
+.features-list .features-list-element {
+  flex-basis: calc(100% / 4 - 30px);
+}
 .features .features-list-element:not(:last-child) {
   margin-right: 30px;
 }
@@ -259,6 +262,9 @@ header address {
 .about-us-list {
   display: flex;
   justify-content: space-between;
+}
+.about-us-list > li {
+  flex-basis: calc(100% / 3 - 30px);
 }
 /* ================ Чем мы занимаемся конец  ========= */
 
@@ -283,6 +289,7 @@ header address {
   line-height: 1.19;
 }
 .team-cards-list-item {
+  flex-basis: calc(100% / 4 - 30px);
   background-color: var(--primary-bgc);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
