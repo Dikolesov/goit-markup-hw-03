@@ -61,6 +61,8 @@ body {
 }
 header {
   border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .section-title {
@@ -136,6 +138,9 @@ footer .logo {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.nav-contacts a {
+  color: var(--primary-text-color);
+}
 
 .nav-list .nav-list-element:focus,
 .nav-list .nav-list-element:hover,
@@ -166,19 +171,11 @@ header address {
 .nav-contacts .nav-contacts-element:not(:last-child) {
   margin-right: 50px;
 }
-.nav-contacts .nav-contacts-element {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
 
 .nav-list-element-logo {
-  padding: 24px 0px 25px 0px;
   margin-right: 93px;
 }
-.nav-list .nav-list-list {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
+
 .nav-list .nav-list-list:not(:last-child) {
   margin-right: 50px;
 }
@@ -189,8 +186,6 @@ header address {
 .hero {
   background-color: var(--second-bgc);
   text-align: center;
-}
-.hero .container {
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -338,6 +333,7 @@ footer .logo {
 /* ================ Страница портфолио ================ */
 .gallery {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .list-btn {
@@ -398,7 +394,6 @@ footer .logo {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-  margin-bottom: 94px;
 }
 .list-gallery-item {
   margin-left: 30px;
